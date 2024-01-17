@@ -107,7 +107,7 @@ def update_output_container(selected_statistics, input_year):
         R_chart3 = dcc.Graph(
             figure=px.pie(adv_rec,
             values='Vehicle_Type',
-            names='Advertising Expediture',
+            names='Advertising_Expenditure',
             title="Total expenditure share by vehicle type during recessions"
             )
         )
